@@ -7,3 +7,12 @@ numpy
 tensorboard
 matplotlib
 scikeras
+
+langchain
+python-dotenv
+langchain-community
+pypdf
+
+langchain-openai
+openai
+langchain-huggingface
