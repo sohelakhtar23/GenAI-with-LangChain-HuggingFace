@@ -16,3 +16,8 @@ pypdf
 langchain-openai
 openai
 langchain-huggingface
+bs4
+
+chromadb
+langchain-chroma
+faiss-cpu
