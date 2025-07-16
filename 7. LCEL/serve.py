@@ -1,3 +1,5 @@
+## if while running, the /docs page is not loading, try Downgrading pydantic version to 2.10.6
+
 from fastapi import FastAPI
 from langserve import add_routes
 

@@ -45,11 +45,12 @@ def create_vector_embedding():
         st.session_state.vectors=FAISS.from_documents(st.session_state.final_documents,st.session_state.embeddings)
 st.title("RAG Document Q&A With Groq And Lama3")
 
-user_prompt=st.text_input("Enter your query from the research paper")
-
+st.write("First load the pdf files by pressing the button below. This will create a vector database for the documents.")
 if st.button("Document Embedding"):
     create_vector_embedding()
     st.write("Vector Database is ready")
+
+user_prompt=st.text_input("Enter your query from the research paper")
 
 import time
 
